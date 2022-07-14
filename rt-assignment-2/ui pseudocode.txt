@@ -1,0 +1,37 @@
+
+initialise the publisher, service clients;
+set robot speed to 0.0;
+
+main function(int argc, char **argv)
+    initialise the node user interface;
+    initialise input to -1;
+    set client1;
+    set client2;
+
+    print the list of commands;
+
+    if input is equal to 0
+        call service clients;
+        reset robot position;
+    else if input is equal to 1
+        set service request for input;
+        set service request for robot speed;
+    else if input is equal to 2
+        set service request for input;
+        set service request for robot speed;
+    else if input is equal to 3
+        stop the robot
+        set service request for input;
+        set service request for robot speed;
+    else 
+        print command is not valid;
+
+    call clients;
+    set robot speed to service response robot speed;
+    print the new speed of the robot;
+    
+return 0;
+
+
+
+

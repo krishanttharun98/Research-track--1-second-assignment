@@ -4,7 +4,7 @@ This Assignment-2 is a C++ program which achives a robot's behaviour ( using las
 
 ### METHODOLOGY OF THE ROBOT OPERATION 
 
-Basically there are three nodes second_assignment, second_assignment_node and services. 
+Basically there are three nodes second_assignment, second_assignment_node and services.
       1.second_assignment contains the world (circuit) where the robot runs.
       2.second_assignment_node contains two piece of codes for main robot operation (robot.cpp) which gets datas from Laser scanners and uses for the prioritised    turn of the robot and other one for user to control the robot (ui.cpp) that invokes the service for the User Interface to change the course of the robot movement.  
       3.services contains the user input commands to condition the robot movements.
